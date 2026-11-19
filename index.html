@@ -1,0 +1,494 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Elbrus Garayev — Senior Backend Engineer</title>
+  <meta name="description" content="Elbrus Garayev is a Senior Backend Engineer at ABB in Baku, Azerbaijan, designing and building reliable, scalable backend systems for financial products.">
+  <link rel="canonical" href="https://elbrusgarayev.com/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Elbrus Garayev — Senior Backend Engineer">
+  <meta property="og:description" content="I design and build reliable, scalable backend systems that power real-world financial products and digital experiences.">
+  <meta property="og:url" content="https://elbrusgarayev.com/">
+  <meta name="twitter:card" content="summary">
+
+  <meta name="theme-color" content="#FAFAF9" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0A0A0B" media="(prefers-color-scheme: dark)">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+
+  <!-- Apply saved theme before first paint to avoid a flash -->
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem('theme');
+        if (t === 'light' || t === 'dark') document.documentElement.setAttribute('data-theme', t);
+      } catch (e) {}
+      document.documentElement.classList.add('js');
+    })();
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Elbrus Garayev",
+    "jobTitle": "Senior Backend Engineer",
+    "url": "https://elbrusgarayev.com",
+    "address": { "@type": "PostalAddress", "addressLocality": "Baku", "addressCountry": "AZ" },
+    "worksFor": { "@type": "Organization", "name": "ABB" },
+    "alumniOf": { "@type": "CollegeOrUniversity", "name": "Baku Engineering University" },
+    "sameAs": ["https://www.linkedin.com/in/elbrusgarayev/", "https://github.com/ElbrusGarayev"],
+    "hasCredential": { "@type": "EducationalOccupationalCredential", "name": "Confluent Certified Developer for Apache Kafka (CCDAK)" },
+    "knowsAbout": ["Java", "Spring Boot", "Microservices", "Apache Kafka", "Distributed Systems", "Oracle Database", "MongoDB"]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ============ NAVIGATION ============ -->
+  <header class="nav" data-nav>
+    <div class="nav__inner container">
+      <a class="nav__wordmark" href="#home" aria-label="Elbrus Garayev, home">Elbrus Garayev</a>
+
+      <nav class="nav__links" aria-label="Primary">
+        <a class="nav__link" href="#home">Home</a>
+        <a class="nav__link" href="#about">About</a>
+        <a class="nav__link" href="#experience">Experience</a>
+        <a class="nav__link" href="#skills">Skills</a>
+        <span class="nav__link is-soon" aria-disabled="true" title="Apps are coming soon">
+          Apps <span class="pill pill--soon">Soon</span>
+        </span>
+        <a class="nav__link" href="#contact">Contact</a>
+      </nav>
+
+      <div class="nav__actions">
+        <button class="icon-btn theme-toggle" type="button" data-theme-toggle aria-label="Switch to dark mode">
+          <svg class="icon icon--sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2.5v2M12 19.5v2M4.6 4.6l1.4 1.4M18 18l1.4 1.4M2.5 12h2M19.5 12h2M4.6 19.4 6 18M18 6l1.4-1.4"/></svg>
+          <svg class="icon icon--moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5Z"/></svg>
+        </button>
+        <button class="icon-btn menu-toggle" type="button" data-menu-toggle aria-expanded="false" aria-controls="mobile-menu" aria-label="Open menu">
+          <span class="menu-toggle__bar"></span>
+          <span class="menu-toggle__bar"></span>
+        </button>
+      </div>
+    </div>
+
+    <div class="mobile-menu" id="mobile-menu" data-mobile-menu>
+      <nav class="mobile-menu__inner container" aria-label="Mobile">
+        <a class="mobile-menu__link" href="#home">Home</a>
+        <a class="mobile-menu__link" href="#about">About</a>
+        <a class="mobile-menu__link" href="#experience">Experience</a>
+        <a class="mobile-menu__link" href="#skills">Skills</a>
+        <span class="mobile-menu__link is-soon" aria-disabled="true">Apps <span class="pill pill--soon">Coming soon</span></span>
+        <a class="mobile-menu__link" href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero__glow" aria-hidden="true"></div>
+      <div class="container hero__layout">
+        <div class="hero__content">
+          <p class="hero__location enter" style="--d:0">
+            <span class="status-dot" aria-hidden="true"></span>
+            Based in Baku, Azerbaijan
+          </p>
+
+          <h1 class="hero__title" id="hero-title">
+            <span class="hero__line enter" style="--d:1">Hi, I’m Elbrus.</span>
+            <span class="hero__line hero__line--muted enter" style="--d:2">Senior Backend Engineer.</span>
+          </h1>
+
+          <p class="hero__lead enter" style="--d:3">
+            I design and build reliable, scalable backend systems that power real-world financial products and digital experiences.
+          </p>
+
+          <div class="hero__actions enter" style="--d:4">
+            <a class="btn btn--primary" href="#experience">
+              Explore My Experience
+              <svg class="icon icon--sm" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M6 13l6 6 6-6"/></svg>
+            </a>
+            <!-- Place the PDF at assets/resume/Elbrus-Garayev-Resume.pdf -->
+            <a class="btn btn--secondary" href="assets/resume/Elbrus-Garayev-Resume.pdf" download>
+              Download Resume
+              <svg class="icon icon--sm" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11M7 10.5l5 5 5-5M5 20h14"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Reserved portrait slot. To enable: add assets/img/portrait.jpg,
+             set src="assets/img/portrait.jpg" on the image, and remove `hidden`. -->
+        <figure class="hero__portrait" hidden>
+          <img alt="Portrait of Elbrus Garayev" width="800" height="1000">
+        </figure>
+      </div>
+
+      <div class="container">
+        <dl class="hero__facts enter" style="--d:5">
+          <div class="fact">
+            <dt>Currently</dt>
+            <dd>Senior Backend Developer at ABB</dd>
+          </div>
+          <div class="fact">
+            <dt>Experience</dt>
+            <dd>6+ years in banking backend</dd>
+          </div>
+          <div class="fact">
+            <dt>Core stack</dt>
+            <dd>Java · Spring Boot · Kafka</dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section" id="about" aria-labelledby="about-title">
+      <div class="container about">
+        <header class="section__header about__header">
+          <p class="eyebrow reveal">About</p>
+          <h2 class="section__title reveal" id="about-title">A little about me.</h2>
+        </header>
+
+        <div class="about__body">
+          <p class="about__lead reveal">
+            For me, backend development isn’t just about writing code — it’s about system thinking, structure, and building for the long term.
+          </p>
+          <p class="reveal">
+            I’ve spent six years at ABB, one of Azerbaijan’s largest banks, growing from junior to lead and now senior backend developer. My work lives in the Java and Spring Boot ecosystem: microservices, payment flows, and event-driven integrations on Apache Kafka, backed by Oracle and MongoDB.
+          </p>
+          <p class="reveal">
+            I value structured technical analysis, honest estimation, and well-planned sprints. The goal isn’t just working code — it’s results that are measurable and sustainable. Increasingly, that means focusing on software architecture, system design, and helping teams make good technical decisions together.
+          </p>
+
+          <ul class="focus-grid" role="list">
+            <li class="focus reveal" style="--i:0"><h3>Java &amp; the Spring ecosystem</h3><p>My everyday tools for production services.</p></li>
+            <li class="focus reveal" style="--i:1"><h3>REST API design &amp; integrations</h3><p>Contracts other teams enjoy building on.</p></li>
+            <li class="focus reveal" style="--i:2"><h3>Event-driven with Kafka</h3><p>Asynchronous flows built for throughput.</p></li>
+            <li class="focus reveal" style="--i:3"><h3>Microservices &amp; distributed systems</h3><p>Clear boundaries, predictable failure.</p></li>
+            <li class="focus reveal" style="--i:4"><h3>Performance &amp; optimization</h3><p>Fast by design, steady under load.</p></li>
+            <li class="focus reveal" style="--i:5"><h3>Clean, maintainable code</h3><p>Architecture that stays readable years later.</p></li>
+            <li class="focus reveal" style="--i:6"><h3>Technical analysis &amp; estimation</h3><p>Understanding the problem before solving it.</p></li>
+            <li class="focus focus--now reveal" style="--i:7"><h3>Architecture &amp; leadership</h3><p>Where my focus is growing next.</p></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ EXPERIENCE ============ -->
+    <section class="section section--alt" id="experience" aria-labelledby="experience-title">
+      <div class="container">
+        <header class="section__header">
+          <p class="eyebrow reveal">Career</p>
+          <h2 class="section__title reveal" id="experience-title">Experience.</h2>
+          <p class="section__intro reveal">Building the systems behind digital banking — payments, cards, and the integrations that hold it all together.</p>
+        </header>
+
+        <ol class="timeline" role="list">
+          <!-- Experience entry — duplicate this <li> to add a role -->
+          <li class="role reveal is-current">
+            <div class="role__meta">
+              <p class="role__period">
+                <time datetime="2020-10">Oct 2020</time> — <span>Present</span>
+              </p>
+              <span class="pill pill--current"><span class="status-dot" aria-hidden="true"></span>Current</span>
+            </div>
+            <div class="role__body">
+              <h3 class="role__title">Senior Backend Developer</h3>
+              <p class="role__company">ABB <span aria-hidden="true">·</span> Banking <span aria-hidden="true">·</span> Full-time</p>
+              <p class="role__summary">
+                Building and evolving the backend behind the bank’s digital and corporate channels — the services customers rely on every day to pay, transfer, and manage their cards.
+              </p>
+
+              <!-- Progression within the company, newest first -->
+              <ol class="ladder" role="list" aria-label="Roles at ABB">
+                <li class="ladder__step is-current"><span class="ladder__title">Senior Backend Developer</span><span class="ladder__period">Feb 2024 — Present</span></li>
+                <li class="ladder__step"><span class="ladder__title">Lead Backend Developer</span><span class="ladder__period">Sep 2022 — Feb 2024</span></li>
+                <li class="ladder__step"><span class="ladder__title">Middle Backend Developer</span><span class="ladder__period">Jul 2021 — Sep 2022</span></li>
+                <li class="ladder__step"><span class="ladder__title">Junior Backend Developer</span><span class="ladder__period">Oct 2020 — Jul 2021</span></li>
+              </ol>
+
+              <ul class="role__highlights" role="list">
+                <li>Part of the Corporate &amp; SME payments team that integrated the ISO 20022 (MX) standard into the bank’s internal payment processes, as cross-border payments moved off legacy SWIFT MT.</li>
+                <li>Design and maintain Spring Boot microservices behind the digital banking platform.</li>
+                <li>Build payment processing flows with a focus on correctness, idempotency, and clear failure handling.</li>
+                <li>Develop card-related services and the APIs behind card management and transactions.</li>
+                <li>Engineer Kafka-based integrations between core banking and downstream systems.</li>
+                <li>Bring structured technical analysis and estimation to sprint planning.</li>
+              </ul>
+              <ul class="tags tags--quiet" role="list" aria-label="Technologies">
+                <li>Java</li><li>Spring Boot</li><li>Apache Kafka</li><li>Oracle</li><li>MongoDB</li><li>Redis</li><li>Elasticsearch</li><li>Docker</li><li>GitLab CI/CD</li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="role role--compact reveal">
+            <div class="role__meta">
+              <p class="role__period"><time datetime="2019-03">Mar 2019</time> — <time datetime="2022-01">Jan 2022</time></p>
+            </div>
+            <div class="role__body">
+              <h3 class="role__title">Co-Founder</h3>
+              <p class="role__company">Codex Academy <span aria-hidden="true">·</span> Self-employed <span aria-hidden="true">·</span> Baku</p>
+            </div>
+          </li>
+
+          <li class="role role--compact reveal">
+            <div class="role__meta">
+              <p class="role__period"><time datetime="2019-03">Mar 2019</time> — <time datetime="2019-07">Jul 2019</time></p>
+            </div>
+            <div class="role__body">
+              <h3 class="role__title">Intern</h3>
+              <p class="role__company">Knexel Technologies <span aria-hidden="true">·</span> Baku</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section class="section" id="skills" aria-labelledby="skills-title">
+      <div class="container">
+        <header class="section__header">
+          <p class="eyebrow reveal">Expertise</p>
+          <h2 class="section__title reveal" id="skills-title">Technologies I work with.</h2>
+        </header>
+
+        <div class="bento">
+          <article class="skill-card skill-card--wide reveal" style="--i:0">
+            <p class="skill-card__index">01</p>
+            <h3 class="skill-card__title">Backend</h3>
+            <p class="skill-card__desc">The foundation of everything I ship.</p>
+            <ul class="tags" role="list">
+              <li>Java 17+</li><li>Spring Boot</li><li>Spring Security</li><li>REST APIs</li><li>Microservices</li>
+            </ul>
+          </article>
+
+          <article class="skill-card reveal" style="--i:1">
+            <p class="skill-card__index">02</p>
+            <h3 class="skill-card__title">Messaging &amp; Distributed Systems</h3>
+            <p class="skill-card__desc">Moving data reliably between systems.</p>
+            <ul class="tags" role="list">
+              <li>Apache Kafka</li><li>Event-Driven Architecture</li><li>ksqlDB</li><li>KRaft</li><li>Apache Flink</li><li>Redis</li>
+            </ul>
+          </article>
+
+          <article class="skill-card reveal" style="--i:2">
+            <p class="skill-card__index">03</p>
+            <h3 class="skill-card__title">Databases</h3>
+            <p class="skill-card__desc">Modeling and tuning data that matters.</p>
+            <ul class="tags" role="list">
+              <li>Oracle Database</li><li>MongoDB</li><li>Elasticsearch</li><li>SQL</li>
+            </ul>
+          </article>
+
+          <article class="skill-card reveal" style="--i:3">
+            <p class="skill-card__index">04</p>
+            <h3 class="skill-card__title">Engineering Tools</h3>
+            <p class="skill-card__desc">From commit to production, repeatably.</p>
+            <ul class="tags" role="list">
+              <li>Git</li><li>GitLab CI/CD</li><li>Gradle</li><li>Docker</li><li>Liquibase</li>
+            </ul>
+          </article>
+
+          <article class="skill-card reveal" style="--i:4">
+            <p class="skill-card__index">05</p>
+            <h3 class="skill-card__title">Architecture &amp; Practices</h3>
+            <p class="skill-card__desc">How the pieces fit — and stay that way.</p>
+            <ul class="tags" role="list">
+              <li>System Design</li><li>API Design</li><li>Performance Optimization</li><li>Observability</li><li>Clean Architecture</li><li>Algorithms</li><li>Technical Analysis &amp; Estimation</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CERTIFICATIONS ============ -->
+    <section class="section section--tight" id="certifications" aria-labelledby="certs-title">
+      <div class="container">
+        <header class="section__header">
+          <p class="eyebrow reveal">Credentials</p>
+          <h2 class="section__title reveal" id="certs-title">Certifications &amp; Continuous Learning.</h2>
+        </header>
+
+        <!-- Featured certification -->
+        <a class="cert reveal" href="https://certificates.confluent.io/4f21736b-9f2f-4d41-a158-76ce7ad8833e" target="_blank" rel="noopener">
+          <div class="cert__seal" aria-hidden="true">
+            <svg viewBox="0 0 48 48"><circle cx="24" cy="24" r="21"/><circle cx="24" cy="24" r="15.5"/><path d="M17.5 24.5l4.5 4.5 8.5-9"/></svg>
+          </div>
+          <div class="cert__body">
+            <p class="cert__issuer">Confluent, an IBM Company</p>
+            <h3 class="cert__name">Confluent Certified Developer for Apache Kafka</h3>
+            <p class="cert__code">CCDAK <span aria-hidden="true">·</span> Valid through Jun 2028 <span aria-hidden="true">·</span> <span class="cert__verify">Verify credential</span></p>
+          </div>
+          <p class="cert__year"><time datetime="2026-06">2026</time></p>
+        </a>
+
+        <!-- Record list — duplicate an <li> to add another certification -->
+        <ul class="records" role="list" aria-label="Other certifications">
+          <li class="reveal" style="--i:0">
+            <a class="record" href="https://certificates.confluent.io/ec8e539d-f355-4288-aa96-6ff7a5c2f5f1" target="_blank" rel="noopener">
+              <span class="record__year">2026</span>
+              <span class="record__name">Apache Kafka Fundamentals</span>
+              <span class="record__issuer">Confluent</span>
+              <svg class="icon icon--sm record__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+            </a>
+          </li>
+          <li class="reveal" style="--i:1">
+            <a class="record" href="https://www.credential.net/c6d20d72-ed3e-4f51-87fb-3884c300cbc9" target="_blank" rel="noopener">
+              <span class="record__year">2022</span>
+              <span class="record__name">Software Engineer</span>
+              <span class="record__issuer">ABB Innovation</span>
+              <svg class="icon icon--sm record__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+            </a>
+          </li>
+          <li class="reveal" style="--i:2">
+            <a class="record" href="https://www.linkedin.com/learning/certificates/fc4f3e0b94d98c2a2d0b72933a759b2693f2e431fa4d97c374ebb1f48e586169" target="_blank" rel="noopener">
+              <span class="record__year">2021</span>
+              <span class="record__name">Java Memory Management</span>
+              <span class="record__issuer">LinkedIn Learning</span>
+              <svg class="icon icon--sm record__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+            </a>
+          </li>
+          <li class="reveal" style="--i:3">
+            <a class="record" href="https://www.credential.net/cca25ea9-fce3-4d37-93fa-7afe94edb818" target="_blank" rel="noopener">
+              <span class="record__year">2020</span>
+              <span class="record__name">Backend Developer</span>
+              <span class="record__issuer">ABB Innovation</span>
+              <svg class="icon icon--sm record__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+            </a>
+          </li>
+          <li class="reveal" style="--i:4">
+            <a class="record" href="https://www.hackerrank.com/certificates/1333398076ab" target="_blank" rel="noopener">
+              <span class="record__year">2020</span>
+              <span class="record__name">Java (Basic)</span>
+              <span class="record__issuer">HackerRank</span>
+              <svg class="icon icon--sm record__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+            </a>
+          </li>
+        </ul>
+
+        <h3 class="subsection-title reveal" id="education">Education</h3>
+        <ul class="records" role="list" aria-label="Education">
+          <li class="reveal" style="--i:0">
+            <div class="record">
+              <span class="record__year">2017 — 2021</span>
+              <span class="record__name">Bachelor’s degree, Computer Engineering</span>
+              <span class="record__issuer">Baku Engineering University</span>
+            </div>
+          </li>
+          <li class="reveal" style="--i:1">
+            <div class="record">
+              <span class="record__year">2021 — 2022</span>
+              <span class="record__name">Computer Software Engineering</span>
+              <span class="record__issuer">ABB Tech Academy</span>
+            </div>
+          </li>
+          <li class="reveal" style="--i:2">
+            <div class="record">
+              <span class="record__year">2020</span>
+              <span class="record__name">Backend Development</span>
+              <span class="record__issuer">ABB Tech Academy</span>
+            </div>
+          </li>
+        </ul>
+        <p class="certs__note reveal">Learning never really stops — this list grows over time.</p>
+      </div>
+    </section>
+
+    <!-- ============ APPS (Phase 2 — hidden until products are ready) ============
+         To launch: remove `hidden`, replace `.is-soon` nav items with real links,
+         and render cards from #app-card-template (see assets/js/main.js → renderApps). -->
+    <section class="section section--alt" id="apps" aria-labelledby="apps-title" hidden>
+      <div class="container">
+        <header class="section__header">
+          <p class="eyebrow">Apps</p>
+          <h2 class="section__title" id="apps-title">Things I’ve Built.</h2>
+          <p class="section__intro">Mobile apps, developer tools, and experiments — built independently, with the same care as production systems.</p>
+        </header>
+        <div class="app-grid" data-app-grid></div>
+      </div>
+    </section>
+
+    <template id="app-card-template">
+      <article class="app-card">
+        <a class="app-card__link" href="#">
+          <div class="app-card__media"><img class="app-card__screenshot" alt="" loading="lazy"></div>
+          <div class="app-card__content">
+            <img class="app-card__icon" alt="" width="64" height="64">
+            <div>
+              <h3 class="app-card__name"></h3>
+              <p class="app-card__desc"></p>
+            </div>
+          </div>
+        </a>
+        <div class="app-card__footer">
+          <ul class="platforms" role="list" aria-label="Platforms"></ul>
+          <div class="store-links"></div>
+        </div>
+      </article>
+    </template>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section contact" id="contact" aria-labelledby="contact-title">
+      <div class="container">
+        <header class="section__header contact__header">
+          <p class="eyebrow reveal">Contact</p>
+          <h2 class="contact__title reveal" id="contact-title">Let’s connect.</h2>
+          <p class="section__intro reveal">
+            Interested in discussing software engineering, architecture, or building something meaningful? I’d love to connect.
+          </p>
+        </header>
+
+        <ul class="contact-list" role="list">
+          <li class="reveal" style="--i:0">
+            <a class="contact-row" href="mailto:ekberli.elbrus@gmail.com">
+              <span class="contact-row__label">Email</span>
+              <span class="contact-row__value">ekberli.elbrus@gmail.com</span>
+              <svg class="icon contact-row__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+            </a>
+          </li>
+          <li class="reveal" style="--i:1">
+            <a class="contact-row" href="https://www.linkedin.com/in/elbrusgarayev/" target="_blank" rel="noopener">
+              <span class="contact-row__label">LinkedIn</span>
+              <span class="contact-row__value">in/elbrusgarayev</span>
+              <svg class="icon contact-row__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+            </a>
+          </li>
+          <li class="reveal" style="--i:2">
+            <a class="contact-row" href="https://github.com/ElbrusGarayev" target="_blank" rel="noopener">
+              <span class="contact-row__label">GitHub</span>
+              <span class="contact-row__value">@ElbrusGarayev</span>
+              <svg class="icon contact-row__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p class="footer__copy">© 2026 Elbrus Garayev.</p>
+      <nav class="footer__links" aria-label="Footer">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <p class="footer__sig">Built with care.</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
