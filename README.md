@@ -21,4 +21,5 @@ Content was filled in from LinkedIn (Nov 2026). Still to do:
 - **Role / certification:** duplicate the commented `<li>` in `index.html`.
 - **Portrait:** add `assets/img/portrait.jpg`, set it as the `src` on the `<img>` in `.hero__portrait`, and remove `hidden`. The hero then switches to two columns.
 - **Apps (Phase 2):** add objects to `APPS` in `main.js`. The `#apps` section renders and appears on its own once the array has entries. Then turn the "Apps · Soon" nav items into real links to `#apps`.
+- **Languages (EN · AZ · RU):** English text lives in `index.html`. To translate an element, add `data-i18n="key"` to it and put the key under `az` and `ru` in `assets/js/i18n.js`. The language comes from `?lang=`, then the visitor's saved choice, then their browser language, and falls back to English.
 - **Theme:** every color lives in the `:root` tokens (light) and the two dark blocks in `styles.css`.
